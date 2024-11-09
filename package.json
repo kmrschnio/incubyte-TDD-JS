@@ -1,0 +1,14 @@
+{
+  "name": "incubyte-tdd-js",
+  "version": "1.0.0",
+  "description": "Test first approach for any solution.Demostration of approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "sachin kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
