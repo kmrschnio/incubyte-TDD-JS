@@ -7,3 +7,11 @@ test('should return the number itself for a single number', () => {
 test('should return the zero for empty string', () => {
     expect(add("")).toBe(0);
 });
+
+test('should return the sum of two numbers separated by comma',()=>{
+    expect(add('2,3')).toBe(5);
+})
+
+test('should return the sum of multiple numbers separated by comma',()=>{
+    expect(add('2,3,4')).toBe(9);
+})
