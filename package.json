@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Test first approach for any solution.Demostration of approach",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "author": "sachin kumar",
   "license": "ISC",
